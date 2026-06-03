@@ -1,50 +1,95 @@
-# Netflix-Global-Content-Strategy-Analysis
-A business-focused analytics project that examines Netflix's global content strategy using Python. The analysis explores content growth trends, genre performance, regional expansion, audience targeting, and content portfolio optimization to provide strategic recommendations for content investment decisions.
 # Netflix Global Content Strategy Analysis
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-Analytics-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Project](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-This project simulates the role of a Data Analyst working within Netflix's Content Strategy team. The objective is to analyze Netflix's global content portfolio and provide data-driven insights that support strategic content investment decisions.
+---
 
-Using Python, the project evaluates content growth trends, genre distribution, regional content expansion, audience targeting strategies, and the balance between Movies and TV Shows.
+# Executive Summary
 
-The analysis is designed from a business perspective rather than a traditional exploratory data analysis (EDA) approach. The final output provides actionable recommendations that could help Netflix optimize content investments and expand into high-growth markets.
+This project analyzes Netflix's global content portfolio to identify growth trends, genre strategy, regional expansion patterns, audience targeting behavior, and content mix distribution.
 
-## Business Objectives
+The analysis is designed from a business perspective to support strategic content investment decisions.
 
-* Analyze Netflix's content growth over time.
-* Identify the most dominant genres on the platform.
-* Evaluate country-level content production trends.
-* Understand audience targeting through content ratings.
-* Compare Movies and TV Shows to assess content strategy.
-* Provide recommendations for future content investments.
+---
 
-## Tools Used
+# Business Questions
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+1. How has Netflix's content portfolio evolved over time?
 
-## Dataset
+2. Which genres dominate Netflix's catalog?
 
-Dataset: netflix_titles.csv
+3. Which countries contribute the most content?
 
-The dataset contains information about Netflix Movies and TV Shows including:
+4. What audience segments are being targeted?
 
-* Title
-* Content Type
-* Director
-* Cast
-* Country
-* Date Added
-* Release Year
-* Rating
-* Duration
-* Genre
+5. How is Netflix balancing Movies and TV Shows?
 
-## Expected Business Outcome
+---
 
-The analysis helps stakeholders understand how Netflix's content strategy has evolved, which regions drive content production, what genres dominate the catalog, and where future investments could generate the highest impact.
+# Project Structure
+
+Netflix-Global-Content-Strategy-Analysis
+
+├── netflix_titles.csv
+
+├── 01_Data_Quality_Audit.ipynb
+
+├── 02_Content_Growth_Analysis.ipynb
+
+├── 03_Genre_Strategy_Analysis.ipynb
+
+├── 04_Country_Expansion_Analysis.ipynb
+
+├── 05_Audience_Targeting_Analysis.ipynb
+
+├── 06_Content_Mix_Analysis.ipynb
+
+├── Project_Documentation.md
+
+└── Visualizations
+
+---
+
+# Key Insights
+
+### Content Growth
+
+Netflix experienced rapid content expansion after 2015.
+
+### Genre Strategy
+
+International Movies and Drama dominate the platform.
+
+### Regional Expansion
+
+United States and India contribute the largest content volumes.
+
+### Audience Targeting
+
+TV-MA content represents the largest audience segment.
+
+### Content Mix
+
+Movies remain the dominant content type.
+
+---
+
+# Skills Demonstrated
+
+- Python
+- Pandas
+- Data Cleaning
+- Data Visualization
+- Business Analytics
+- Data Storytelling
+- Strategic Analysis
+
+---
+
+# Author
+
+Arunkumar Karukolla
+
+Data Analyst | SQL | Power BI | Python
